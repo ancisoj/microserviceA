@@ -18,3 +18,5 @@ To receive data, read the product description from `description-response.txt`. T
             response = response_file.read()
 
 ## UML Sequence Diagram
+
+![Screenshot_21-5-2024_23012_online visual-paradigm com](https://github.com/ancisoj/microserviceA/assets/138057884/20cb7ab5-b81a-4323-80ad-4dd722683d60)
