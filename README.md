@@ -18,33 +18,3 @@ To receive data, read the product description from `description-response.txt`. T
             response = response_file.read()
 
 ## UML Sequence Diagram
-+-----------------+                +------------------------+
-|  Test Program   |                | Product Description    |
-|                 |                | Microservice           |
-+-----------------+                +------------------------+
-         |                                   |
-         | 1. Write request to               |
-         |    description-service.txt        |
-         |---------------------------------->|
-         |                                   |
-         | 2. Check for new requests         |
-         |<----------------------------------|
-         |                                   |
-         | 3. Read request                   |
-         |---------------------------------->|
-         |                                   |
-         | 4. Process request and find       |
-         |    product description            |
-         |---------------------------------->|
-         |                                   |
-         | 5. Write response to              |
-         |    description-response.txt       |
-         |<----------------------------------|
-         |                                   |
-         | 6. Read response from             |
-         |    description-response.txt       |
-         |---------------------------------->|
-         |                                   |
-         | 7. Display response               |
-         |<----------------------------------|
-         |                                   |
